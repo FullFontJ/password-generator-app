@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-custom-body; /* Aplica el estilo definido en tailwind.config.js */
+}
+
+.range-input-thumb::-webkit-slider-thumb {
+  width: 18px; 
+  height: 18px;
+  background-color:#A4FFAC;
+  border: none; 
+  border-radius: 50%; 
+  -webkit-appearance: none; 
+  appearance: none; 
+}
+
+.slider-fill {
+  background-color: #A4FFAC;
+}
+
+.slider-unfilled {
+  background-color: #0F0E14;
+}
